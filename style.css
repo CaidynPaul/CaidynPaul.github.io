@@ -1,5 +1,56 @@
 .container{
-    display:flex;
-    align-items:center;
-    justify-content:center;
+    position:relative;
+    width:100%;
+    max-width: 600px;
+    text-align:center;
+    margin:20px auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    background-color: #222222;
+    border-radius: 6px;
+    border-bottom: 3px solid #3b3b4d;
+}
+.row{
+    row-gap: 80px;
+}
+.item button{
+    max-width: 400px;
+    width: 100%;
+    overflow:hidden;
+    text-align: center;
+    border-radius: 4px;
+    border:none;
+    height:58px;
+}
+#Discord{
+    background-color: #5567e3;
+}
+#Instagram{
+    background-image:linear-gradient(90deg,#f59c28,#e8259d, #0040de)
+    
+}
+#Twitter{
+    background-color: #1c9cea;
+}
+#Discord:hover{
+    background-color: #1c5dea;
+
+}
+
+#Instagram:hover{
+    background-image:linear-gradient(90deg,#aa6c1c,#921863, #002b99)
+}
+#Twitter:hover{
+    background-color: #136797;
+}
+#Discord:active{
+    background-color: #4339c9;
+}
+
+#Instagram:active{
+    background-image:linear-gradient(90deg,#0040de,#e8259d, #f59c28)
+}
+
+body{
+    background-color: #1b1b1b;
 }
