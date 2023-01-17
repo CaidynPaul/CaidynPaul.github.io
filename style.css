@@ -22,6 +22,10 @@
     border:none;
     height:58px;
 }
+#b404{
+    background-color: #121315;
+}
+
 #Discord{
     background-color: #5567e3;
 }
@@ -32,6 +36,11 @@
 #Twitter{
     background-color: #1c9cea;
 }
+
+#b404:hover{
+    background-color: #2d3035;
+}
+
 #Discord:hover{
     background-color: #1c5dea;
 
@@ -43,6 +52,11 @@
 #Twitter:hover{
     background-color: #136797;
 }
+
+#b404:active{
+    background-color: #2b394f;
+}
+
 #Discord:active{
     background-color: #4339c9;
 }
