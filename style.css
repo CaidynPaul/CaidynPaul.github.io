@@ -1,3 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align:center;
+
+}
+
+
+
+a{
+	text-decoration:none;
+	color:#dadada;
+	padding:50px;
+}
+
+.nav_link{
+    list-style:none;
+
+}
+.nav_link li{
+    display:inline-block;
+    padding: 0px 0px;
+    font-size: 18px;
+    
+}
+.nav_link a:hover{
+    background-color:#1b2644;
+}
+.nav_link a{
+        transition: all 0.46s ease 0s;
+        border-bottom-left-radius:  6px;
+        border-bottom-right-radius:  6px;
+}
+
+.ContainerHeader{
+    font-family: 'Lato', sans-serif;
+    color:white;
+}
+
 .container{
     position:relative;
     width:100%;
