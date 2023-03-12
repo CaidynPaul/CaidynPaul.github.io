@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto+Condensed:wght@300&display=swap');
+
+h1 , h2 , h3 ,h4{
+    font-family: Montserrat;
+}
+
+body{
+    font-family: proxima-nova;
+    background-color: #0f0f0f;
+}
+
+a{
+	text-decoration:none;
+	color:#e7e7e7;
+	padding:50px;
+    font-family: 'Raleway','Roboto Condensed', sans-serif;
+}
+
+.nav_link{
+    list-style:none;
+
+}
+.nav_link li{
+    display:inline-block;
+    padding: 0px 0px;
+    font-size: 18px;
+    
+}
+.nav_link a:hover{
+    background-color:#1b2644;
+}
+.nav_link a{
+        transition: all 0.46s ease 0s;
+        border-bottom-left-radius:  6px;
+        border-bottom-right-radius:  6px;
+}
