@@ -66,29 +66,13 @@ a{
     font-weight: 500;
     font-family: 'Helvetica','Verdana',sans-serif;
 }
+/* First Glance */
 #b404{
     background-color: #121315;
 }
 
 #Github{
     background-image: linear-gradient(90deg,#182e47,#000000);
-}
-
-#Riot{
-    background-color: #fff;
-}
-
-#RiotSpecial{
-    border-radius: 5px;
-    max-width: 150px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: red;
-    position: relative;
-    height:40px;
-    margin-left: 120px;
 }
 
 #Discord{
@@ -101,6 +85,11 @@ a{
 #Twitter{
     background-color: #1c9cea;
 }
+
+#BrayTech{
+    background-image:linear-gradient(90deg,#df7369,#dd2f58);
+}
+/* Hovers */
 
 #b404:hover{
     background-color: #2d3035;
@@ -115,9 +104,6 @@ a{
 
 }
 
-#Riot:hover{
-    background-color: #c5c5c5;
-}
 
 #Instagram:hover{
     background-image:linear-gradient(90deg,#aa6c1c,#921863, #002b99)
@@ -126,6 +112,11 @@ a{
     background-color: #136797;
 }
 
+#BrayTech:hover{
+    background-image:linear-gradient(90deg,#f2b387,#e93927);
+}
+
+/* Onclick */
 #b404:active{
     background-color: #2b394f;
 }
@@ -134,12 +125,11 @@ a{
     background-image: linear-gradient(270deg,#182e47,#000000);
 }
 
-#Riot:active{
-    background-color: red;
+
+#BrayTech:active{
+    background-image:linear-gradient(90deg,#b58665,#932418);
 }
-#RiotSpecial:active{
-    background-color:#f5f3f3;
-}
+
 
 #Discord:active{
     background-color: #4339c9;
